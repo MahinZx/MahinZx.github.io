@@ -24,16 +24,6 @@ npm run build
 npm run test:static
 ```
 
-## Update the content
-
-- `src/pages/index.astro` — homepage introduction
-- `src/consts.ts` — name, navigation and contact details
-- `src/content/projects/` — projects
-- `src/content/work/` — experience
-- `src/content/blog/` — notes
-
-The GitHub Actions workflow in `.github/workflows/deploy.yml` builds the site and deploys it to GitHub Pages on pushes to `main`.
-
 ## Credits
 
 Based on [Astro Sphere](https://github.com/markhorn-dev/astro-sphere) by Mark Horn. Astro Sphere is available under the MIT license; the original license is included in [LICENSE](LICENSE).
